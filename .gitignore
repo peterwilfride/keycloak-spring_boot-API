@@ -1,6 +1,7 @@
 target/
 /docker/*.jar
 !.mvn/wrapper/maven-wrapper.jar
+.github
 
 ### STS ###
 .apt_generated
