@@ -1,0 +1,12 @@
+server:
+  port: 8000
+
+keycloak:
+  realm: Demo
+  auth-server-url: http://localhost:8080/auth
+  ssl-required: external
+  resource: demo-springboot-with-keycloak
+  credentials:
+    secret: 28767ce6-bc68-4e06-a99d-042c87a9831d
+  use-resource-role-mappings: true
+  bearer-only: true
